@@ -1,0 +1,190 @@
+/* index page */
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.index1 {
+    background-image: url("../Image/beautiful-shot-snowy-mountain-sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+.first a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.first ::placeholder {
+    text-align: center;
+}
+
+.first input {
+    position: relative;
+    width: 80%;
+}
+
+.input i {
+    position: absolute;
+    top: 100%;
+    left: 2;
+    size: 100%;
+}
+
+.pic {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+form {
+    line-height: 24px;
+    text-align: center;
+    background-color: rgb(255, 255, 225, 0);
+    width: 250px;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    backdrop-filter: blur(40px);
+    justify-items: center;
+    align-items: center;
+    float: right;
+}
+
+form ::placeholder {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+.second {
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+input {
+    border-radius: 120px;
+}
+
+.ind-button {
+    border: 1px;
+    border-radius: 60px;
+}
+
+.ind-button2 {
+    border: 1px;
+    border-radius: 20px;
+}
+
+/* About us */
+
+.About-us-BGI {
+    background-image: url("../Image/4683.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sector-1-abt a {
+    text-decoration: none;
+    color: black;
+}
+
+.headline-about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.CM-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+.about-tx1 {
+    text-align: left;
+    justify-content: center;
+}
+
+.about-footer {
+    background-color: black;
+    padding: 1%;
+    margin-top: 2%;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 100;
+    line-height: 170%;
+}
+
+.photo img {
+    margin-left: 150px;
+}
+
+.inp input {
+    width: 150px;
+    position: relative;
+}
+
+.inp i {
+    position: absolute;
+    transform: translatey(7px);
+    transform: translatex(4px);
+    top: 64px;
+    cursor: pointer;
+}
+
+.inp ::placeholder {
+    text-align: center;
+    font-size: small;
+}
+
+.about-footer {
+    background-color: rgb(211, 202, 189);
+    color: black;
+}
+
+.about-foot {
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+
+
+/* service */
+.service-BGI {
+    background-image: url("../Image/rm405-c01a-mockup.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500dvh;
+}
+
+.sector-service1 {
+    padding-top: 55px;
+}
+
+.sector-service1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 227, 206);
+    text-align: justify;
+    margin: 6%;
+    padding: 2%;
+    box-shadow: 20px black;
+    font-size: 16px;
+}
+
+.info p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+footer {}
